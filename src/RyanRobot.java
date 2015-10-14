@@ -1,5 +1,5 @@
 import org.jointheleague.graphical.robot.*;
-public class Robot {
+public class RyanRobot {
 public static void main(String[] args) {
 	 org.jointheleague.graphical.robot.Robot a = new  org.jointheleague.graphical.robot.Robot();
 	 a.penDown();
@@ -15,5 +15,15 @@ public static void main(String[] args) {
 			
 	}
 	 
+}
+
+public void move(int i) {
+	// TODO Auto-generated method stub
+	
+}
+
+public void turn(int i) {
+	// TODO Auto-generated method stub
+	
 }
 }
