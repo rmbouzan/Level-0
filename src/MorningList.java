@@ -14,6 +14,9 @@ JOptionPane.showMessageDialog(null, "Head on out the door for school!");
 String answer = JOptionPane.showInputDialog("Your welcome! (Say thank you)");
 	if(answer.equals("Thank You")){
 		JOptionPane.showMessageDialog(null, "Your welcome");
+		for (int i = 0; i < args.length; i++) {
+			
+		}
 	}
 	else{
 		JOptionPane.showMessageDialog(null, "YOU SUCK.");
